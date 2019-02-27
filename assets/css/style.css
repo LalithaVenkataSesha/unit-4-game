@@ -14,10 +14,10 @@ body {
 .win-loss {
      background-color: cyan;
      width:80px;
-     height:80px;
-     position: relative;
+     height:94px;
+     position: absolute;
      left:110px;
-     bottom:30px;
+     bottom:10px;
      text-align:center;
 }
 .number {
