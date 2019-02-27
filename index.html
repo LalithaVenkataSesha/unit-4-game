@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <div class="heading">
+    <h1>Crystals Collector!</h1>
+    </div>
+    <div class="description">
+        <p>
+          You will be given a random number at the start of the game.  
+        </p>
+        <p>There are four crystals below.By clicking on a crystal
+            you will add a specific amount of points to your score.
+        </p>
+        <p>You win the game by matching your totalscore to random number,
+            you loose the game if your total score above the random number.
+        </p>
+        <p>The value of each crystal is hidden from you until you click on it.
+        </p>
+        <p>Each time when the game starts, the game will change the values of each crystal.
+        </p>
+    </div>
+    <div>
+     <h6 class="number">Number</h6>
+     <div class="win-loss">
+         <h6 id="win">Wins:</h6>
+        <h6 id="loss">Losses:</h6>
+    </div>
+    </div>
+    <div class="crystals">
+   <button class="game-crystal" value="crystal-green"><img src="assets/images/crystal-lightblue.jpg" /></button>
+   <button class="game-crystal" value="crystal-blue"><img src="assets/images/diamond_sapphire.png" /></button>
+   <button class="game-crystal" value="crystal-yellow"><img src="assets/images/vector-isolated-yellow.jpg"/></button>
+  <button class="game-crystal" value="crystal-red"><img src="assets/images/vector-isolated.jpg" /></button>
+    </div>
+
+    <div class="total">
+    <h6>Your total score is:</h6>
+    </div>
+<div class="score">
+        </div>
+  </body>
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src = "assets/javascript/game.js"></script>
+</html>

@@ -1,0 +1,48 @@
+.description {
+    background-color:#fffeea;
+    width: 600px;
+    text-align:justify;
+    font-size:14px;
+}
+body {
+    background-image: url('../images/green-mat.jpg');
+}
+ img {
+    max-width: 60px;
+    display:inline;
+}
+.win-loss {
+     background-color: cyan;
+     width:80px;
+     height:80px;
+     position: relative;
+     left:110px;
+     bottom:30px;
+     text-align:center;
+}
+.number {
+    background-color: green;
+    width:100px;
+    height:100px;
+}
+.heading {
+    background-color: darkorange;
+    width:400px;
+    height:80px;
+    margin-bottom:10px;
+}
+.total {
+    width: 200px;
+    height:20px;
+    background-color:#01796f;
+    margin-top:10px;
+}
+.score {
+    width:200px;
+    height:150px;
+    background-color:#01796f;
+    margin-top:15px;
+}
+.crystals {
+    margin-top:20px;
+}
