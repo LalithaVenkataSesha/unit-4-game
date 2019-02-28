@@ -1,3 +1,6 @@
+.main {
+ margin-left:10px;
+}
 .description {
     background-color:#fffeea;
     width: 600px;
@@ -17,7 +20,7 @@ body {
      height:94px;
      position: absolute;
      left:110px;
-     bottom:10px;
+     top: 320px;
      text-align:center;
 }
 .number {
